@@ -32,7 +32,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Browse our latest products",
             "heading_size": "h0"
@@ -40,7 +39,6 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify://collections/all",
@@ -59,7 +57,7 @@
         "image": "shopify://shop_images/home_banner_pc.jpg",
         "image_overlay_opacity": 40,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
