@@ -9,58 +9,55 @@
  */
 {
   "sections": {
-    "image_banner_fEdE9P": {
-      "type": "image-banner",
+    "image_with_text_3HAHCn": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_QhTLQM": {
+        "heading_Hi3ixL": {
           "type": "heading",
           "settings": {
-            "heading": "RichePet",
+            "heading": "Image with text",
             "heading_size": "h1"
           }
         },
-        "text_nHwC7w": {
+        "text_3UHfiL": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
-        "buttons_9B93Mg": {
-          "type": "buttons",
-          "disabled": true,
+        "button_bQXV3W": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_QhTLQM",
-        "text_nHwC7w",
-        "buttons_9B93Mg"
+        "heading_Hi3ixL",
+        "text_3UHfiL",
+        "button_bQXV3W"
       ],
       "settings": {
-        "image": "shopify://shop_images/contact_us_banner_pc.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -78,7 +75,7 @@
     }
   },
   "order": [
-    "image_banner_fEdE9P",
+    "image_with_text_3HAHCn",
     "main",
     "form"
   ]
