@@ -48,7 +48,7 @@
       "settings": {
         "image": "shopify://shop_images/aboue_us_banner_pc_ee8502d0-6eb5-43d8-8ea5-6f445af6c55c.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
